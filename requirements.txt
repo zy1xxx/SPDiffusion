@@ -1,0 +1,4 @@
+torch>=2.0.1
+diffusers>=0.29.0
+stanza==1.8.2
+nltk==3.8.1
