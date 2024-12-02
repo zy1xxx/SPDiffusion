@@ -26,7 +26,7 @@ nltk==3.8.1
 ```
 
 ### Pipeline
-```
+```python
 from SPD_Pipeline import SPDiffusionPipeline
 import torch
 pipe = SPDiffusionPipeline.from_pretrained("SG161222/RealVisXL_V4.0").to("cuda")
